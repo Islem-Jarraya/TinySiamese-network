@@ -6,6 +6,12 @@ Then, the Tiny-Siamese encoded the features in a small set of layers and finally
 ![Tiny-Siamese2 (2)](https://github.com/Islem-Jarraya/TinySiamese-network/assets/79153028/d3774b70-9163-4e1b-9b98-b45a046b1135)
 Figure 1: The TinySiamese Network [1].
 
+## Instalation
+Requires pytorch 3
+
+## Code structure
+
+## Example - Fingerprint classification(FVC)
 
 ## References:
 [1] JARRAYA, Islem, HAMDANI, Tarek M., CHABCHOUB, Habib, et al. Tinysiamese network for biometric analysis. arXiv preprint arXiv:2307.00578, 2023.
