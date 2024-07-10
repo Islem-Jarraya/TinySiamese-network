@@ -12,6 +12,7 @@ Requires pytorch 3
 ## Code structure
 
 ## Example - Fingerprint classification(FVC)
+FVC2002[3] and FVC2004[2] datasets include noisy images acquired by different live scan devices. The fingerprints of each dataset were categorized into four types: arch, right loop, left loop and whorl. The four sets of FVC2004 were merged into a single set of four classes to form a multi-sensor fingerprint dataset. The same procedure was used for FVC2002 using only three sets (DB1, DB2 and DB4). This example does not include all the data but only some images.
 
 ## References:
 [1] JARRAYA, Islem, HAMDANI, Tarek M., CHABCHOUB, Habib, et al. Tinysiamese network for biometric analysis. arXiv preprint arXiv:2307.00578, 2023.
