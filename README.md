@@ -9,3 +9,5 @@ Figure 1: The TinySiamese Network [1].
 
 ## References:
 [1] JARRAYA, Islem, HAMDANI, Tarek M., CHABCHOUB, Habib, et al. Tinysiamese network for biometric analysis. arXiv preprint arXiv:2307.00578, 2023.
+[2] MAIO, Dario, MALTONI, Davide, CAPPELLI, Raffaele, et al. FVC2004: Third fingerprint verification competition. In : International conference on biometric authentication. Berlin, Heidelberg : Springer Berlin Heidelberg, 2004. p. 1-7.
+[3] MAIO, Dario, MALTONI, Davide, CAPPELLI, Raffaele, et al. FVC2000: Fingerprint verification competition. IEEE transactions on pattern analysis and machine intelligence, 2002, vol. 24, no 3, p. 402-412.
