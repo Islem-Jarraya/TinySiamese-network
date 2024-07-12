@@ -79,9 +79,9 @@ def get_activation(name):
     return hook
         
 model.eval()
-ftrainArch = open('csv_train3.csv', 'w')
-ftrainLabelsArch = open('csv_trainLabels3.csv', 'w')
-ftrainPathsArch = open('csv_trainPaths3.csv', 'w')
+ftrainArch = open('csv_train.csv', 'w')
+ftrainLabelsArch = open('csv_trainLabels.csv', 'w')
+ftrainPathsArch = open('csv_trainPaths.csv', 'w')
 writertrainArch = csv.writer(ftrainArch)
 writertrainLabelsArch = csv.writer(ftrainLabelsArch)
 writertrainPathsArch = csv.writer(ftrainPathsArch)
