@@ -30,7 +30,6 @@ class ImageFolderWithPaths(datasets.ImageFolder):
         tuple_with_path = (original_tuple + (path,))
         return tuple_with_path
 
-#input_path = "/home/regimlab/Documents/Databases/FVC2004/DB1_B/"
 input_path = "FVC-Work/SiameseDatabase/"
 
 normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
@@ -58,19 +57,6 @@ dataloaders = {
                                 num_workers=0),  # for Kaggle
 }
 
-
-#model = models.alexnet(pretrained=True)
-
-#model.classifier = nn.Sequential(
-##                nn.Dropout(p=0.5, inplace=False),
-#                nn.Linear(in_features=9216, out_features=4096, bias=True),
-#                nn.ReLU(inplace=True),
-##                nn.Dropout(p=0.5, inplace=False),
-#                nn.Linear(in_features=4096, out_features=4096, bias=True),
-#                nn.ReLU(inplace=True),
-#                nn.Linear(in_features=4096, out_features=4, bias=True))
-
-#model.load_state_dict(torch.load("model/alexnetFVC.h5"))
 
 model = models.vgg16(pretrained=True)
     
