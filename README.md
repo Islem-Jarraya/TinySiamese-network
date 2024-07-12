@@ -10,7 +10,8 @@ Figure 1: The TinySiamese Network [1].
 Requires pytorch 3
 
 ## Code structure
-
+Step 1:
+  Run the "FeaturesVectors" file to create the csv files of features "csv_train.csv", labels "csv_trainLabels.csv" and paths "csv_trainPaths.csv".
 ## Example - Fingerprint classification(FVC)
 FVC2002[3] and FVC2004[2] datasets include noisy images acquired by different live scan devices. The fingerprints of each dataset were categorized into four types: arch, right loop, left loop and whorl. The four sets of FVC2004 were merged into a single set of four classes to form a multi-sensor fingerprint dataset. The same procedure was used for FVC2002 using only three sets (DB1, DB2 and DB4). This example does not include all the data but only some images.
 
