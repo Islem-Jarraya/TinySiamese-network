@@ -30,7 +30,7 @@ class ImageFolderWithPaths(datasets.ImageFolder):
         tuple_with_path = (original_tuple + (path,))
         return tuple_with_path
 
-input_path = "FVC-Work/SiameseDatabase/"
+input_path = "Database/"
 
 normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
                                  std=[0.229, 0.224, 0.225])
