@@ -9,7 +9,7 @@ Then, the Tiny-Siamese encoded the features in a small set of layers and finally
 <p align="center">Figure 1: The TinySiamese Network [1].</p>
 
 ## Instalation
-Requires pytorch 3
+Requires python 3
 
 ## Code structure
 ### Step 1:
