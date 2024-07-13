@@ -11,9 +11,15 @@ Requires pytorch 3
 
 ## Code structure
 ### Step 1:
-  Run the "FeatureVectorsTrain" file to create the csv files of features "csv_train.csv", labels "csv_trainLabels.csv" and paths "csv_trainPaths.csv".
+  Run the "FeatureVectorsTrain.py" file to create the CSV files of features (csv_train.csv), labels (csv_trainLabels.csv), and paths (csv_trainPaths.csv).
 ### Step 2:
-  Run the "FeatureVectorsTest" file to create the csv files of features "csv_test.csv", labels "csv_testLabels.csv" and paths "csv_testPaths.csv".
+  Run the "FeatureVectorsTest.py" file to create the CSV files of features (csv_test.csv), labels (csv_testLabels.csv), and paths (csv_testPaths.csv).
+  These two files use a pre-trained model (VGG16) on fingerprint classification for feature extraction. The pre-trained model should be saved in the "model" folder.
+### Step 3:
+  After completing Step 1 and Step 2, the CSV files will be created. We can then start the execution of the training code in the "TinySiameseTrain.py" file. Running this file will produce the trained TinySiamese model in the "model" folder.
+### Step 4:
+  The file "TinySiameseTest.py" contains the testing code for accuracy calculation.
+  
 ## Example - Fingerprint classification(FVC)
 FVC2002[3] and FVC2004[2] datasets include noisy images acquired by different live scan devices. The fingerprints of each dataset were categorized into four types: arch, right loop, left loop and whorl. The four sets of FVC2004 were merged into a single set of four classes to form a multi-sensor fingerprint dataset. The same procedure was used for FVC2002 using only three sets (DB1, DB2 and DB4). This example does not include all the data but only some images.
 
