@@ -1,4 +1,4 @@
-# TinySiamese-network
+# TinySiamese network
 <p align="justify">
 The TinySiamese neural network took on a new look and a new way of working which was different from the standard Siamese network. The difference first appeared in the input processing of the network. 
 Instead of having images as input, the input was the output feature vector of a pre-trained CNN model. In other words, all input images would be transformed into feature vectors using a feature extractor (such as a pre-trained CNN model).
