@@ -30,7 +30,7 @@ FVC2002[3] and FVC2004[2] datasets include noisy images acquired by different li
 </p>
 
 ## References:
-[1] JARRAYA, Islem, HAMDANI, Tarek M., CHABCHOUB, Habib, et al. Tinysiamese network for biometric analysis. arXiv preprint arXiv:2307.00578, 2023.
+[1] Jarraya, I., Hamdani, T.M., Chabchoub, H. et al. TinySiamese network for biometric analysis. Int. J. Mach. Learn. & Cyber. 16, 7897–7911 (2025).
 
 [2] MAIO, Dario, MALTONI, Davide, CAPPELLI, Raffaele, et al. FVC2004: Third fingerprint verification competition. In : International conference on biometric authentication. Berlin, Heidelberg : Springer Berlin Heidelberg, 2004. p. 1-7.
 
